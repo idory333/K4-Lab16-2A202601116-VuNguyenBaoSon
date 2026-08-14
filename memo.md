@@ -1,6 +1,7 @@
 # Memo Teardown — ChatGPT
 
-**Nhóm:** K4-Lab16 · **Thành viên:** Vũ Nguyễn Bảo Sơn  
+**Nhóm:** K4-Lab16 · **Thành viên:** Vũ Nguyễn Bảo Sơn, Trần Chí Hiển, Hồ Lương An
+
 **Vì sao chọn sản phẩm này:** ChatGPT là sản phẩm AI tiêu biểu nhất định hình lại toàn bộ ngành công nghệ và thói quen làm việc của hàng trăm triệu người dùng trên toàn thế giới, sở hữu tốc độ tăng trưởng và chu kỳ dịch chuyển sản phẩm điển hình nhất để phân tích Product Sense.
 
 ---
@@ -19,9 +20,10 @@
 | **09/2024** | Ra mắt dòng mô hình o1 (Reasoning) có khả năng "suy nghĩ". | Các mô hình LLM truyền thống chạm trần trong các bài toán suy luận phức tạp. Thị trường cần AI tư duy sâu, lập luận từng bước. | **Định nghĩa lại "Sự thông minh":** Thay đổi cách AI hoạt động: Không cần trả lời ngay (phản xạ), mà biết dành thời gian để suy nghĩ, lập kế hoạch và tự sửa lỗi ngầm trước khi đưa ra kết quả. | [OpenAI Blog](https://openai.com/index/introducing-openai-o1-preview/) |
 
 **Vì sao chọn những mốc này:**
-- **Tập trung vào bước ngoặt chiến lược, không phải bản vá lỗi:** Nhóm chọn những mốc làm thay đổi cách AI kiếm tiền hoặc cách người dùng xài AI (chuyển sang Nghe/Nhìn, đánh vào Doanh nghiệp), chứ không chọn các bản cập nhật sửa lỗi hay tăng thông số đơn thuần.
-- **Vẽ nên bức tranh xây Hào cản (Moat):** 8 mốc này cho thấy cách OpenAI tự bảo vệ mình: Bắt đầu từ công nghệ mạnh (GPT-4), rào lại bằng hệ sinh thái (Plugins, Store), lấy dữ liệu đè bẹp đối thủ (mở free GPT-4o), và cuối cùng là vươn lên tầm cao mới về tư duy (o1).
-- **Bám sát "Nỗi đau" thị trường từng thời điểm:** Mỗi mốc đều là câu trả lời cho một rủi ro sống còn. Bị chê data cũ -> ra lướt web; Doanh nghiệp sợ lộ data -> ra Enterprise; AI không giải được toán khó -> ra dòng o1 biết suy nghĩ.
+
+- Đây là những cột mốc chính trong sự phát triển của Open AI trong kể từ khi ra mắt ChatGpt cho tới bây giờ. Việc ra mắt Chatgpt Enterprise cho thấy công ty đang scale ra tệp khách hàng B2B, giải quyết được vấn đề về bảo mật thông tin của các công ty. 
+
+- Những cột mốc này cho thấy Open AI nắm bắt được đúng **nhu cầu và nỗi đau** của người dùng trên thị trường. Nhu cầu cải thiện thời gian và chất lượng công việc.
 
 ---
 
@@ -30,8 +32,8 @@
 | Tiêu chí | Early Adopters (Những lập trình viên - cuối 2022) | Tệp người dùng hiện tại (Người dùng đại chúng - Hiện nay) |
 | :--- | :--- | :--- |
 | **Đặc điểm** | Frontend dev ở các startup nhỏ, người làm nội dung (copywriter), học sinh/sinh viên mê công nghệ, hay lướt Twitter AI, Reddit, Hacker News. | Nhân viên văn phòng (marketing, HR, bán hàng), giáo viên, học sinh sinh viên, quản lý doanh nghiệp, người dùng phổ thông. |
-| **JTBD chính** | - **Lập trình:** Viết nhanh đoạn code mẫu hoặc tìm lỗi code để không phải lướt vài trang StackOverflow.<br>- **Viết lách:** Lên ý tưởng và viết nháp bài đăng mạng xã hội, email chào hàng để đỡ tốn thời gian ngồi nghĩ từ đầu. | - **Soạn văn bản:** Soạn email, làm báo cáo hoặc sửa câu từ cho lịch sự, đúng chuẩn công sở.<br>- **Xử lý tài liệu:** Tóm tắt tài liệu dài, dịch văn bản hoặc biên bản cuộc họp.<br>- **Học tập & Giải đáp:** Nhờ giải thích khái niệm khó theo cách dễ hiểu, gợi ý ý tưởng công việc. |
-| **Trước đó họ làm bằng cách nào** | Tra Google, đọc tài liệu API, tìm bài hướng dẫn trên StackOverflow/GitHub; tự ngồi vò đầu bứt tai nghĩ ý tưởng bài viết. | Tự gõ email thủ công (mất nhiều thời gian sửa câu từ), dùng Google Dịch (dịch thô), đọc từng trang tài liệu dài. |
+| **JTBD chính** | - **Lập trình:** Viết nhanh đoạn code mẫu hoặc tìm lỗi code để không phải lướt vài trang StackOverflow.<br>- **Viết lách:** Lên ý tưởng và viết nháp bài đăng mạng xã hội, email chào hàng để đỡ tốn thời gian ngồi nghĩ từ đầu. | - **Soạn văn bản:** Soạn email, làm báo cáo hoặc sửa câu từ cho lịch sự, đúng chuẩn công sở.<br>- **Xử lý tài liệu:** Tóm tắt tài liệu dài, dịch văn bản hoặc biên bản cuộc họp.<br>- **Kiểm tra code:** Đã có AI code cho nên việc giờ chuyển sang kiểm tra. |
+| **Trước đó họ làm bằng cách nào** | Tra Google, đọc tài liệu API, tìm bài hướng dẫn trên StackOverflow/GitHub; tự ngồi vò đầu bứt tai nghĩ ý tưởng bài viết. | Tự gõ email thủ công (mất nhiều thời gian sửa câu từ), dùng Google Dịch (dịch thô), đọc từng trang tài liệu dài, lập trình, viết code thủ công. |
 
 **Dịch chuyển tệp:**  
 Cột mốc GPT-4 (03/2023) tăng độ chính xác và ứng dụng di động iOS/Android (05/2023) giúp AI bớt sai sót và dễ tiếp cận hơn trên điện thoại, tạo hiệu ứng lan truyền xã hội từ nhóm công nghệ sang giới văn phòng đại chúng.
@@ -39,7 +41,7 @@ Cột mốc GPT-4 (03/2023) tăng độ chính xác và ứng dụng di động 
 **Switching cost (Map 4 forces):**
 - **Push từ hiện tại:** Google Search nhiễu quảng cáo, thông tin lan man; công việc văn phòng lặp đi lặp lại tốn thời gian.
 - **Pull từ ChatGPT:** Trả lời trực tiếp, chat tự nhiên như người thật, đa năng (code, dịch, viết văn).
-- **Anxiety (Lo ngại):** Sợ AI "chém gió" sai sự thật; sợ lộ thông tin nội bộ doanh nghiệp; sợ phụ thuộc vào AI.
+- **Anxiety (Lo ngại):** Sợ AI trả lời sai sự thật; sợ lộ thông tin nội bộ doanh nghiệp; sợ phụ thuộc vào AI.
 - **Inertia (Thói quen cũ):** Thói quen tra Google từ khóa ngắn; chưa quen viết prompt hiệu quả; quy trình công ty chưa chính thức cho phép.
 
 ---
@@ -47,7 +49,7 @@ Cột mốc GPT-4 (03/2023) tăng độ chính xác và ứng dụng di động 
 ## §3. Ba dự đoán hướng đi (6–12 tháng tới)
 
 **Dự đoán 1** *(loại: mở rộng tính năng — Chuyển từ Chat sang Autonomous AI Agent)*  
-- **Dự đoán:** OpenAI sẽ nâng cấp ChatGPT từ một khung chat thụ động thành một **AI Agent tự vận hành (Autonomous Agent)** — có khả năng tự thao tác trình duyệt, gửi email, thực thi quy trình công việc đa bước trên máy tính (Computer Use) mà không cần người dùng can thiệp từng câu lệnh.  
+- **Dự đoán:** OpenAI sẽ nâng cấp ChatGPT từ một khung chat thụ động thành một **AI Agent tự vận hành (Autonomous Agent)** có khả năng tự thao tác trình duyệt, gửi email, thực thi quy trình công việc đa bước trên máy tính (Computer Use) mà không cần người dùng can thiệp từng câu lệnh.  
 - **Lập luận:**  
   - *Dẫn từ §1 (Timeline):* Sự tiến hóa công nghệ của ChatGPT đi từ lướt web tra cứu thông tin (05/2023), ra mắt GPTs/Store (01/2024) đến mô hình o1 biết lập luận suy nghĩ (09/2024). Khi bài toán "tư duy & suy luận" đã được giải quyết, bước đi tất yếu tiếp theo là "hành động tự động" (Action-oriented AI).  
   - *Dẫn từ §2 (Tệp User & JTBD):* Tệp người dùng hiện tại (nhân viên văn phòng, doanh nghiệp) có JTBD là "tiết kiệm thời gian xử lý công việc lặp đi lặp lại". Lực cản hiện tại (Inertia) là họ vẫn phải copy-paste kết quả từ ChatGPT sang các phần mềm khác thủ công. Tính năng AI Agent sẽ giải quyết triệt để điểm nghẽn này.  
